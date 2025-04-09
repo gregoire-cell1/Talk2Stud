@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Formation Finder - La plateforme moderne qui connecte lycéens et étudiants pour obtenir des informations transparentes sur les formations." />
-  <title>Formation Finder - Modernité & Transparence</title>
+  <title>Formation Finder - Explorez vos formations</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -25,17 +25,16 @@
     </nav>
   </header>
 
-  <!-- SECTION ACCUEIL -->
+  <!-- SECTION ACCUEIL - Hero -->
   <section id="home" class="page-section active-section">
     <div class="hero">
       <div class="hero-content">
         <h1>Bienvenue sur Formation Finder</h1>
-        <p>La plateforme qui connecte lycéens et étudiants afin d'obtenir des retours d'expérience 100% transparents sur les formations.</p>
+        <p>Explorez et comparez des formations pour prendre des décisions éclairées sur votre avenir.</p>
         <a href="#formations" data-page="formations" class="btn-main">Explorer les formations</a>
       </div>
       <div class="hero-media">
-        <!-- Remplacez l'URL par celle de votre image ou vidéo -->
-        <img src="https://vhugo.org/wp-content/uploads/2024/09/orientation.jpg" alt="Image impactante illustrant la plateforme" />
+        <img src="https://vhugo.org/wp-content/uploads/2024/09/orientation.jpg" alt="Image d'illustration" />
       </div>
     </div>
   </section>
@@ -44,20 +43,42 @@
   <section id="about" class="page-section">
     <div class="section-header">
       <h2>À propos de Formation Finder</h2>
-      <p>Notre mission : fournir une information claire, honnête et vérifiée sur les formations afin de faciliter l’orientation des lycéens et réorienter les étudiants.</p>
+      <p>Nous mettons à votre disposition une plateforme complète d'informations sur les formations, avec des retours d'expérience authentiques de la part des étudiants.</p>
     </div>
     <div class="about-content">
       <div class="about-item">
-        <h3>Transparence</h3>
-        <p>Des retours d'expériences authentiques partagés par de vrais étudiants.</p>
+        <h3>Transparence Totale</h3>
+        <p>Des avis vérifiés sur chaque formation pour vous aider à faire le bon choix.</p>
       </div>
       <div class="about-item">
-        <h3>Accessibilité</h3>
-        <p>Une plateforme intuitive, adaptée à tous les écrans et facile d'accès.</p>
+        <h3>Accès Direct</h3>
+        <p>Accédez facilement aux informations essentielles : durée, coût, programme, etc.</p>
       </div>
       <div class="about-item">
-        <h3>Communauté</h3>
-        <p>Rejoignez une grande communauté d’utilisateurs engagés.</p>
+        <h3>Comparaison Simpliﬁée</h3>
+        <p>Comparez plusieurs formations et trouvez celle qui correspond à vos besoins.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION STATISTIQUES -->
+  <section id="statistics" class="page-section">
+    <div class="section-header">
+      <h2>Nos Statistiques</h2>
+      <p>Voici quelques chiffres qui montrent l'impact de notre plateforme.</p>
+    </div>
+    <div class="statistics-content">
+      <div class="stat-item">
+        <h3>+10,000</h3>
+        <p>Formations disponibles</p>
+      </div>
+      <div class="stat-item">
+        <h3>98%</h3>
+        <p>Étudiants satisfaits</p>
+      </div>
+      <div class="stat-item">
+        <h3>+200</h3>
+        <p>Universités et écoles partenaires</p>
       </div>
     </div>
   </section>
@@ -66,24 +87,24 @@
   <section id="features" class="page-section">
     <div class="section-header">
       <h2>Nos Fonctionnalités</h2>
-      <p>Tout ce qui fait de Formation Finder un outil indispensable pour choisir sa formation.</p>
+      <p>Découvrez les outils et services qui font de Formation Finder une plateforme unique.</p>
     </div>
     <div class="features-grid">
       <div class="feature-card">
         <h3>Recherche Avancée</h3>
-        <p>Filtrez et trouvez la formation qui vous correspond grâce à notre moteur de recherche performant.</p>
+        <p>Filtrez les formations par domaine, niveau, localisation et plus pour trouver ce qui vous convient.</p>
       </div>
       <div class="feature-card">
-        <h3>Détails Complets</h3>
-        <p>Accédez à des informations détaillées sur chaque formation : durée, débouchés, coût, emploi du temps et plus encore.</p>
+        <h3>Comparaison de Formations</h3>
+        <p>Comparez facilement les formations entre elles pour choisir celle qui correspond le mieux à vos attentes.</p>
       </div>
       <div class="feature-card">
-        <h3>Transparence Totale</h3>
-        <p>Consultez des avis vérifiés et des retours d'expérience impartiaux pour vous éclairer.</p>
+        <h3>Vidéos et Témoignages</h3>
+        <p>Consultez des témoignages vidéo d'étudiants et d'anciens élèves pour avoir un aperçu authentique.</p>
       </div>
       <div class="feature-card">
-        <h3>Accessible & Moderne</h3>
-        <p>Une interface design, fluide et responsive pour une navigation sans effort sur tous vos appareils.</p>
+        <h3>Accessibilité sur Mobile</h3>
+        <p>Accédez à Formation Finder sur vos appareils mobiles pour explorer les formations où que vous soyez.</p>
       </div>
     </div>
   </section>
@@ -91,35 +112,46 @@
   <!-- SECTION FORMATIONS -->
   <section id="formations" class="page-section">
     <div class="section-header">
-      <h2>Nos Formations</h2>
-      <p>Explorez notre catalogue détaillé de formations pour découvrir celle qui vous correspond.</p>
-      <div id="filters">
-        <input type="text" id="searchInput" placeholder="🔍 Rechercher une formation…" />
-      </div>
+      <h2>Formations Populaires</h2>
+      <p>Voici une sélection des formations les plus consultées par les étudiants.</p>
     </div>
-    <div id="cardsContainer" class="cards-grid">
-      <!-- Les cartes de formations seront injectées en JavaScript -->
+    <div class="cards-grid">
+      <div class="card">
+        <h2>Licence en Informatique</h2>
+        <p>Obtenez les compétences nécessaires pour travailler dans le secteur de la technologie et du développement logiciel.</p>
+        <button>En savoir plus</button>
+      </div>
+      <div class="card">
+        <h2>Master en Marketing Digital</h2>
+        <p>Apprenez les stratégies de marketing en ligne, la gestion de campagnes et l'analyse de données pour exceller dans le domaine du marketing numérique.</p>
+        <button>En savoir plus</button>
+      </div>
+      <div class="card">
+        <h2>BTS Gestion des Entreprises</h2>
+        <p>Acquérez une expertise en gestion d'entreprises, comptabilité et ressources humaines.</p>
+        <button>En savoir plus</button>
+      </div>
     </div>
   </section>
 
   <!-- SECTION TÉMOIGNAGES -->
   <section id="testimonials" class="page-section">
     <div class="section-header">
-      <h2>Témoignages</h2>
-      <p>Découvrez ce que disent nos utilisateurs de leur expérience sur Formation Finder.</p>
+      <h2>Témoignages d'Étudiants</h2>
+      <p>Découvrez les expériences de ceux qui ont trouvé la formation parfaite grâce à nous.</p>
     </div>
     <div class="testimonials-grid">
       <div class="testimonial-card">
-        <p>"Grâce à Formation Finder, j'ai pu choisir la formation qui me correspond vraiment et éviter bien des écueils!"</p>
-        <h4>— Alex, lycéen</h4>
+        <p>"Grâce à Formation Finder, j'ai pu trouver la formation qui correspondait à mes attentes. C'est une plateforme simple à utiliser et très complète !"</p>
+        <h4>Lucie, Étudiante en Marketing Digital</h4>
       </div>
       <div class="testimonial-card">
-        <p>"Les avis transparents m'ont permis de réorienter mon parcours et de prendre une décision en toute connaissance de cause."</p>
-        <h4>— Marie, étudiante</h4>
+        <p>"Les avis d'étudiants m'ont vraiment aidé à choisir la formation parfaite. Je recommande vivement cette plateforme !" </p>
+        <h4>Mathieu, Étudiant en Informatique</h4>
       </div>
       <div class="testimonial-card">
-        <p>"Une interface moderne et des informations fiables, je recommande vivement!"</p>
-        <h4>— Julien, étudiant</h4>
+        <p>"Une plateforme intuitive et pratique. Je ne savais pas par où commencer, mais Formation Finder m'a permis de trouver ma voie."</p>
+        <h4>Claire, Étudiante en Gestion</h4>
       </div>
     </div>
   </section>
@@ -127,34 +159,31 @@
   <!-- SECTION CONTACT -->
   <section id="contact" class="page-section">
     <div class="section-header">
-      <h2>Contactez-nous</h2>
-      <p>Vous avez la moindre question ? Remplissez le formulaire ci-dessous et nous vous répondrons rapidement.</p>
+      <h2>Contactez-Nous</h2>
+      <p>Des questions ? Besoin d'aide ? N'hésitez pas à nous contacter.</p>
     </div>
-    <form id="contactForm" class="contact-form">
+    <div class="contact-form">
       <div class="form-group">
-        <label for="name">Nom / Prénom</label>
-        <input type="text" id="name" placeholder="Votre nom" required />
+        <label for="name">Nom</label>
+        <input type="text" id="name" placeholder="Votre nom" />
       </div>
       <div class="form-group">
         <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Votre email" required />
+        <input type="email" id="email" placeholder="Votre email" />
       </div>
       <div class="form-group">
         <label for="message">Message</label>
-        <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+        <textarea id="message" placeholder="Votre message"></textarea>
       </div>
-      <button type="submit" class="btn-main">Envoyer le message</button>
-    </form>
-    <div id="contactConfirmation" class="contact-confirmation hidden">
-      <p>Merci pour votre message ! Nous reviendrons vers vous rapidement.</p>
+      <button type="submit" class="btn-main">Envoyer</button>
     </div>
   </section>
 
-  <!-- Pied de page -->
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Formation Finder • Conçu par des étudiants, pour des étudiants.</p>
   </footer>
-  
+
   <script src="app.js"></script>
 </body>
 </html>
