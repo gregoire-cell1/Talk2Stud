@@ -16,6 +16,40 @@
   box-sizing: border-box;
 }
 
+/* Styles par défaut (mode clair) */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s; /* Transition pour un changement doux */
+}
+
+/* Styles pour le mode sombre */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Vous pouvez personnaliser d'autres éléments comme les liens, les boutons, etc. */
+a {
+    color: blue;
+}
+
+body.dark-mode a {
+    color: lightblue;
+}
+
+/* Exemple pour des éléments supplémentaires */
+button {
+    background-color: lightgray;
+    color: black;
+}
+
+body.dark-mode button {
+    background-color: #333;
+    color: white;
+}
+
+
 /* Classe utilitaire pour masquer un élément */
 .hidden {
   display: none !important;
